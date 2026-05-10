@@ -1,6 +1,4 @@
 
-console.log('EJERCICIOS')
-
 /* 
 1) Programa una función que cuente el número de caracteres de una cadena de texto, pe. miFuncion("Hola Mundo") devolverá 10.
 2) Programa una función que te devuelva el texto recortado según el número de caracteres indicados, 
@@ -13,3 +11,14 @@ console.log('EJERCICIOS')
 En el video 35 te doy mi solución, antes de verlo trata de resolver los ejercicios, y comparte tus resultados en alguna plataforma 
 como GitHub o CodePen y comparte el enlace de tus soluciones en los comentarios del video.  */
 
+let suma = (a, ...b) =>{
+    let resultado = a;
+    for( let pivot of b){
+        resultado+= pivot;
+    };
+    return resultado;
+};
+export const ejercicios = {
+    suma,
+    
+} ;
